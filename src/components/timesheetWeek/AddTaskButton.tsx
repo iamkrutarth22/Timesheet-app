@@ -101,9 +101,9 @@ const handleSubmit = async (e: React.FormEvent) => {
                   <SelectValue placeholder="Choose a project"  />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="project1">Project Alpha</SelectItem>
-                  <SelectItem value="project2">Project Beta</SelectItem>
-                  <SelectItem value="project3">Project Gamma</SelectItem>
+                  <SelectItem value="project1">Project 1</SelectItem>
+                  <SelectItem value="project2">Project 2</SelectItem>
+                  <SelectItem value="project3">Project 3</SelectItem>
                 </SelectContent>
               </Select>
             </div>
@@ -116,10 +116,12 @@ const handleSubmit = async (e: React.FormEvent) => {
                   <SelectValue placeholder="Select type" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="development">Development</SelectItem>
+                  <SelectItem value="development">Homepage Development</SelectItem>
                   <SelectItem value="design">UI Design</SelectItem>
-                  <SelectItem value="testing">Testing</SelectItem>
+                  <SelectItem value="testing">Unit Testing</SelectItem>
                   <SelectItem value="review">Code Review</SelectItem>
+                  <SelectItem value="api">Api Integration</SelectItem>
+
                 </SelectContent>
               </Select>
             </div>

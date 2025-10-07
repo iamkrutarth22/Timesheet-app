@@ -20,7 +20,7 @@ export default function TimesheetDayColumn({
 
       <div className="flex flex-col flex-1 gap-3">
         {
-          tasks.map((task, i) => <TaskCard  key={i} task={task} refresh={refresh} />)
+          tasks.map((task, i) => <TaskCard  key={task.id} task={task} refresh={refresh} />)
        }
 
         <AddTaskButton taskDate={date}  refresh={refresh}/>
