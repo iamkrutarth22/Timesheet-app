@@ -318,5 +318,15 @@ export const tasks = [
     "totalHours": 2,
     "completedHours": 0,
     "description": "klrkmlelkm"
+  },
+  {
+    "id": "task33",
+    "userid": "1",
+    "taskType": "development",
+    "projectName": "project2",
+    "date": "2025-10-17",
+    "totalHours": 4,
+    "completedHours": 0,
+    "description": "starting with development"
   }
-]
+];
