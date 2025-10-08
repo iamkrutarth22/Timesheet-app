@@ -41,5 +41,7 @@ on click of any action i use start-date_end-date as slug to go to weeks task she
     }
 }
 
-
 -i have use a 2 helper functions to map the data and to derive the status or the action in  /utils/dateUtils.ts
+
+# time spent 2 days 
+monday ,tuesday
